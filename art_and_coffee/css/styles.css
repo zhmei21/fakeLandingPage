@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Container Styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  top: 0;
+  position: fixed;
+  margin: 10px;
+  background-color: #f3f2f1;
+  border-radius: 15px;
+  z-index: 999; /* Ensures the navbar appears above other elements */
+}
+
+.nav-links {
+  margin: 10px;
+  padding: 5px;
+}
+
+header li {
+  display: inline;
+  padding: 10px;
+}
+
+header li:hover {
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.active {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+/* Title Section Styles */
+.title-section {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.title h1 {
+  font-size: 24px;
+}
+
+/* Grid Section Styles */
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.designs {
+  margin: 35px;
+}
+
+.left-row {
+  float: left;
+}
+
+.right-row {
+  float: right;
+}
+
+.designs img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  transition: filter 0.5s;
+}
+
+.designs img:hover {
+  filter: blur(2px) grayscale(0.5);
+}
+
+/* Motivation Section Styles */
+.motivation-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}

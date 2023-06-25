@@ -1,0 +1,120 @@
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Visited link color */
+.navbar a:visited {
+  color: #c26909bd;
+}
+
+/* Link color */
+.navbar a:link {
+  color: #633f33;
+}
+
+/* Navigation link items */
+.nav-links li {
+  display: inline-block;
+  padding: 0 15px;
+  border-radius: 25px;
+}
+
+/* Active link */
+.active {
+  background-color: #c5a582;
+}
+
+/* article */
+article {
+  margin: 25px;
+}
+
+/* Hover effect on navigation link items */
+.nav-links li:hover {
+  background-color: #c5a582;
+  color: #633f33;
+}
+
+/* Hover effect on sign-up */
+.sign-up:hover {
+  cursor: pointer;
+}
+
+/* Grid Wrapper */
+.grid-wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: center;
+}
+
+/* Image styles */
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+.contact-pic-bottom-middle{
+}
+
+/* Float left alignment */
+#float-left {
+  text-align: left;
+}
+
+/* Float right alignment */
+#float-right {
+  text-align: right;
+}
+
+/* Heading styles */
+h2 {
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+}

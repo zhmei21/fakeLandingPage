@@ -1,0 +1,210 @@
+/* Reset default styles and box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles for the body */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation links styles */
+.nav-links a {
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Hover effect on navigation links */
+.nav-links a:hover {
+  color: #ff8c00;
+}
+
+/* Newsletter subscription section styles */
+.news-abo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.news-abo h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.news-abo img {
+  max-width: 100%;
+  height: 300px;
+  grid-row: 1 / span 2;
+  grid-column: 2;
+  justify-self: center;
+}
+
+.news-submit {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+/* Styles for form elements */
+form input,
+button {
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  margin: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Styles for the newsletter button */
+.news-btn {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ff8c00;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect on the newsletter button */
+.news-btn:hover {
+  background-color: #e37000;
+}
+
+/* Styles for the "Why drink coffee" section */
+#title-anwsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+/* Styles for icons section */
+.icons {
+  display: flex;
+  max-width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Styles for the coffee drinking section */
+.coffee-drinking {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+
+/* Styles for the answers section */
+.anwsers {
+  margin: 50px 20px;
+}
+
+.anwsers h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.anwsers p {
+  text-align: left;
+}
+
+/* Styles for news articles */
+
+.news-article {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.news-article h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.news-article h4 {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.news-article p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Feedback Section Styles */
+#feedback {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#feedback p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Styles for buttons */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hover effect on buttons */
+button:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer{
+    text-align: center;
+}

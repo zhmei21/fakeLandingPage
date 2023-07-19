@@ -94,3 +94,32 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media only screen and (max-width: 720px) {
+    .container {
+    max-width: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 2px 0px;
+    padding: 1.5px;
+}
+}
+
+@media only screen and (max-width: 320px){
+    .container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+    footer {
+        background-color: #483b32;
+        color: #fff;
+        text-align: center;
+        margin: 2px 0px;
+        padding: 1.5px;
+        width: 100%;
+    }
+}

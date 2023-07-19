@@ -1,5 +1,7 @@
 # dummyLandingPages
 ## A collection of dummy landing pages, free to use and modify.
+### 19.07.2023:
+- new landing page-> coffee_market
 ### 17.07.2023:
 - new landing page-> coffee_grid
 ### 02.07.2023:

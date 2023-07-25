@@ -1,5 +1,7 @@
 # dummyLandingPages
 ## A collection of dummy landing pages, free to use and modify.
+### 25.07.2023:
+- new landing page-> coffee_company
 ### 20.07.2023:
 - coffee_market changes-> added @media for phones and tablets
 ### 19.07.2023:

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    margin: 25px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.container{
+    margin: 75px;
+}
+
+.container h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.container p{
+    margin: 25px;
+    font-size: 1.5rem;
+}
+
+.container a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+
+.container a .visit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.websites img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+.coffee-website-main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.websites{
+    display: grid;
+    grid-template-columns:1fr 1fr;  
+    gap: 20px;
+    margin: 50px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}

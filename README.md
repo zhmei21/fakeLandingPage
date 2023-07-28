@@ -1,5 +1,9 @@
 # dummyLandingPages
 ## A collection of dummy landing pages, free to use and modify.
+## Use coffee_showcase index to view all websites
+### 28.07.2023:
+- a small showcase page-> coffee_showcase
+- use it to visit all pages
 ### 25.07.2023:
 - new landing page-> coffee_company
 - coffee_company-> changed the copyright phrase

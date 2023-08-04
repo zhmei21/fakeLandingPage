@@ -77,6 +77,12 @@ h2{
     margin: 50px 0px;
 }
 
+#tea_sites{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer{
     display: flex;
     justify-content: center;

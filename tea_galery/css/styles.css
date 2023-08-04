@@ -1,0 +1,143 @@
+/* Reset and general styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  transition: transform 0.2s, font-size 0.2s;
+}
+
+.nav-links li:hover {
+  transform: scale(1);
+  font-weight: bold;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: font-size 0.2s;
+}
+
+/* Main page */
+.main-page {
+  background-image: url("../img/background_tea_plantation.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.main-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main-page p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #ff5500;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e04400;
+}
+
+/* Image gallery */
+.image-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.image-box {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#galleryImg {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.gallery-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0px 10px;
+}
+
+.gallery-btn:hover {
+  background-color: #555;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 20px;
+}

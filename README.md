@@ -1,6 +1,8 @@
 # dummyLandingPages
 ## A collection of dummy landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
+### 05.08.2023:
+- coffee_showcase update-> Change the title and h2 to be more fitting
 ### 04.08.2023:
 - new landing page-> tea_galery
 - update-> coffee_showcase

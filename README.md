@@ -1,5 +1,5 @@
 # fakeLandingPages
-## A collection of dummy landing pages, free to use and modify.
+## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
 ## August 2023
 ### 07.08:

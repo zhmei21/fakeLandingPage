@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Tea info</title>
+    <link rel='stylesheet' href='css/styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tea</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div> 
+
+    <div class="container header">
+        <h1>Tea Infos</h1>
+        <p>
+            Whether you're a seasoned tea connoisseur or just beginning your journey into the world of tea, you've come to the right
+            place. Here, we serve up a piping hot collection of tea infos that are sure to steep your curiosity and awaken your
+            senses.
+        </p>
+    </div>
+    <div class="container tea-sorts">
+        <div class="column-left">
+            <h2>Oolong Tea</h2>
+            <img src="img/Oolong_tea.jpg">
+            <div class="more-info-wrapper">
+                <p class="more-info" onmouseover="showInfo(this)" onmouseout="hideInfo()">More info!</p>
+                <div class="info-card">
+                    Additional info about Oolong Tea
+                    <p>
+                        Origin: Chinese Tea
+                        <br>
+                        Contains: vitamins, minerals and antioxidants
+                        <br>
+                        Price: 6&#36; per 100g
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column-middle">
+            <h2>Jasmine Tea</h2>
+            <img src="img/Jasmine_tea.jpg">
+            <div class="more-info-wrapper">
+                <p class="more-info" onmouseover="showInfo(this)" onmouseout="hideInfo()">More info!</p>
+                <div class="info-card">
+                    Additional info about Jasmine Tea
+                    <p>
+                        Origin: Chinese Tea
+                        <br>
+                        Contains: polyphenols, antioxidants and caffeine
+                        <br>
+                        Price: 8&#36; per 100g
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column-right">
+            <h2>Chai Tea</h2>
+            <img src="img/Chai_tea.jpg">
+            <div class="more-info-wrapper">
+                <p class="more-info" onmouseover="showInfo(this)" onmouseout="hideInfo()">More info!</p>
+                <div class="info-card">
+                    Additional info about Chai Tea
+                    <p>
+                        Origin: Asia (India)
+                        <br>
+                        Contains: antioxidants, caffeine and spices
+                        <br>
+                        Price: 10&#36; pre 100g
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='js/scripts.js'></script>
+</body>
+
+</html>

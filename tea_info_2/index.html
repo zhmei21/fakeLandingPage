@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Tea info</title>
+    <link rel='stylesheet' href='css/styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#infos">Infos</a></li>
+            <li><a href="#tea">Tea</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div> 
+
+    <div class="container header" id="home">
+        <h1>Tea Infos</h1>
+        <p>
+            Whether you're a seasoned tea connoisseur or just beginning your journey into the world of tea, you've come to the right
+            place. Here, we serve up a piping hot collection of tea infos that are sure to steep your curiosity and awaken your
+            senses.
+        </p>
+    </div>
+    <div class="container" id="infos">
+        <h2>Try some tea!</h2>
+        <div class="tea-info">
+            <div class="column-left">
+                <h3>"Experience Elegance in Every Sip with Our Premium Oolong Tea!</h3>
+                <div class="column-p-styles">
+                    Indulge in the perfect balance of tradition and innovation with our Oolong Tea. Carefully selected and
+                    expertly processed, our Oolong Tea offers a blend of flavors, ranging from floral and fruity to rich and
+                    toasty. Elevate your tea moments on a journey through centuries-old tea craftsmanship.
+                    <p class="p-margin">
+                    &#127811; Taste the Essence: Discover the captivating taste of Oolong Tea, where leaves are gently oxidized to
+                    create a
+                    symphony of flavors that dance on your palate.
+                    </p>
+                    &#127793; Nature's Gift: Sourced from the finest tea gardens, our Oolong Tea captures the essence of nature, delivering
+                    an enchanting experience with each brew.
+                    <p class="p-margin">
+                    &#127774; Energize Your Day: Embrace the natural energy boost that Oolong Tea provides, making it the perfect
+                    companion for every moment – from morning rituals to afternoon tranquility.
+                    </p>
+                    <i>Unveil the Mystique of Oolong Tea. Order Now and Elevate Your Tea Experience!"</i>
+                </div>
+            </div>
+            <div class="column-middle">
+                <h3>"Unveil Aroma of Jasmine Tea – a Fragrant Journey for Your Senses!</h3>
+                <div class="column-p-styles">
+                    Delight in the elegance of our Jasmine Tea, where the delicate fragrance of jasmine blossoms is masterfully blended
+                    with
+                    fine green tea leaves. Experience a symphony of flavors that's as soothing as it is enchanting, encapsulating the
+                    essence of relaxation in every sip.
+                    <p class="p-margin">
+                        &#129351; Aroma of Tranquility: Let the aroma of jasmine flowers transport you to a tranquil garden, where
+                        serenity and
+                        rejuvenation are just a cup away.
+                    </p>
+                    &#127861; Green Tea Harmony: Enjoy the perfect marriage of delicate jasmine petals and smooth green tea leaves,
+                    creating a
+                    balanced flavor profile that's both refreshing and floral. Our different sizes are open for every budget.
+                    <p class="p-margin">
+                        &#127769; Moment of Zen: Embrace the calmness that accompanies every cup of Jasmine Tea, making it your go-to
+                        choice for
+                        unwinding after a long day. Money-back guarantee, no question ask.
+                    </p>
+                    <i>Indulge in the Beauty of Jasmine Tea. Order Now and Elevate Your Tea Ritual!"</i>
+                </div>
+            </div>
+            <div class="column-right">
+                <h3>"Spice Up Your Life with Our Authentic Chai Tea Blend!</h3>
+                <div class="column-p-styles">
+                    Ignite your senses and embark on a journey to the bustling streets of India with our handcrafted Chai Tea blend.
+                    Immerse yourself in the aromatic medley of exotic spices, expertly blended to create a 
+                    cup that's warm, comforting, and brimming with authenticity.
+                    <p class="p-margin">
+                    &#127798; Exquisite Spice Fusion: Let the harmonious blend of cinnamon, cardamom, ginger, 
+                    and cloves transport you to a world
+                    of flavor that's as unique as it is invigorating.
+                    </p>
+                    &#127939; Create Moments of Togetherness: Share the tradition of chai with friends and family, 
+                    as you gather around cups of steaming chai and create lasting memories.
+                    <p class="p-margin">
+                    &#10052; Versatility at Its Best: Enjoy Chai Tea hot or iced, sweetened or unsweetened – the possibilities are
+                    endless, and the experience is always extraordinary.
+                    </p>
+                    <i>Rediscover the Timeless Charm of Chai Tea. Order Now and Infuse Spice into Your Day!"</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container tea-sorts" id="tea">
+        <div class="column-left">
+            <h2>Oolong Tea</h2>
+            <img src="img/Oolong_tea.jpg" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+            <div class="more-info-wrapper">
+                <p class="more-info" onmouseover="showInfo(this)" onmouseout="hideInfo()">More info!</p>
+                <div class="info-card">
+                    Additional info about Oolong Tea
+                    <p>
+                        Origin: Chinese Tea
+                        <br>
+                        Contains: vitamins, minerals and antioxidants
+                        <br>
+                        Price: 6&#36; per 100g
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column-middle">
+            <h2>Jasmine Tea</h2>
+            <img src="img/Jasmine_tea.jpg" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+            <div class="more-info-wrapper">
+                <p class="more-info" onmouseover="showInfo(this)" onmouseout="hideInfo()">More info!</p>
+                <div class="info-card">
+                    Additional info about Jasmine Tea
+                    <p>
+                        Origin: Chinese Tea
+                        <br>
+                        Contains: polyphenols, antioxidants and caffeine
+                        <br>
+                        Price: 8&#36; per 100g
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column-right">
+            <h2>Chai Tea</h2>
+            <img src="img/Chai_tea.jpg" class="tea-image" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+            <div class="more-info-wrapper">
+                <p class="more-info" onmouseover="showInfo(this)" onmouseout="hideInfo()">More info!</p>
+                <div class="info-card">
+                    Additional info about Chai Tea
+                    <p>
+                        Origin: Asia (India)
+                        <br>
+                        Contains: antioxidants, caffeine and spices
+                        <br>
+                        Price: 10&#36; pre 100g
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="contact">
+        <h2 class="footer-text">
+            Do you have suggestions on what we should add? feel free to contact us.
+        </h2>
+        <div class="button-style" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <div class="click-me">Click Me!</div>
+        </div>
+        <div class="copyright">
+            <p>
+                © 2023 CycanMaker. All rights reserved. (Ver 2.0 of the website. 1.0 was yesterday o.o)
+            </p>
+        </div>
+        
+    </div>
+    <script src='js/scripts.js'></script>
+</body>
+
+</html>

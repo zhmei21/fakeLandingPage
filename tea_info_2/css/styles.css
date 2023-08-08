@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 75px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: #8CCB9B;
+    font-size: 1.5rem;
+    transition-delay: 0.1s;
+    text-decoration: underline;
+}
+
+/* Header Styles */
+h1, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    padding: 50px;
+    margin: 25px;
+    background-image: url("");
+}
+
+h3 {
+    font-style: italic;
+    padding: 30px;
+}
+
+/* Container Styles */
+
+.container {
+    margin: 50px 255px;
+    padding: 20px;
+    transition: margin 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.header {
+    background-image: url("../img/try_tea.JPG");
+    background-position: 10%;
+    background-size: cover;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 1px 1px 0px #333;
+}
+
+.header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Tea Info and Tea Sorts Styles */
+.container h2{
+    background-image: url("../img/traditional_tea.jpg");
+    margin: 20px auto;
+    gap: 30px;
+    background-position: 10%;
+    background-size: cover;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.tea-sorts, .tea-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 25px;
+}
+
+.column-p-styles {
+    text-align: justify;
+}
+
+.p-margin {
+    margin: 30px 0px;
+}
+
+.tea-sorts h2, .tea-sorts p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea-sorts img {
+    max-width: 100%;
+    height: 250px;
+    display: flex;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+/* Info Card Styles */
+.info-card {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    width: 200px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.more-info-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.more-info {
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #656565;
+    color:#fff;
+}
+
+br {
+    display: block;
+    content: "";
+    margin: 5px;
+}
+
+/* Menu Toggle Styles */
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    padding: 5px 10px;
+    color: grey;
+}
+
+/* Footer Styles */
+.footer {
+    margin: 50px 0px;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 20px;
+}
+
+.button-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 50px;
+}
+
+.click-me {
+    font-size: 2rem;
+    background-color: #656565;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.click-me:hover {
+    cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}

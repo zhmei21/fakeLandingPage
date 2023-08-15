@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+label, input, button {
+    margin: 5px;
+}
+
+.header{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+img{
+    display: flex;
+    margin: 10px auto;
+    max-width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.intro{
+    margin: 25px;
+    justify-content: center;
+    padding: 50px;
+}
+
+input, button{
+    display: flex;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+h1, h2, h3 ,p , label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.searchStyle{
+    margin: 50px 0px;
+    height: 300px;
+    background: linear-gradient(to left, rgb(184, 255, 184), rgb(177, 177, 248))
+}
+
+.description{
+    margin: 15px 50px;
+    padding: 5px 150px;
+}
+
+.searchStyle p{
+    padding-top: 50px;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px rgb(136, 136, 136);
+}
+
+
+#searchBar{
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: 5px rgb(148, 242, 150) solid;
+}
+
+
+label{
+    font-size: 1.5rem;
+}
+
+.recipe{
+    margin: 20px 0px;
+    padding: 15px;
+}
+
+#recipeOutput {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#recipeOutput h2{
+    font-size: 1.4rem;
+}
+
+#recipeOutput h3{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin: 15px;
+    padding: 10px;
+}

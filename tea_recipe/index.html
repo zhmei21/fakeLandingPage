@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset ='UTF-8'>
+        <meta name = 'viewport' content ='width = device-width, initial-scale=1.0'>
+        <title>Tea Snacks</title>
+        <link rel = 'stylesheet' href ='css/styles.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Munch With Tea</h1>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="searchStyle">
+                <p>Find our Recipe</p>
+                <input id="searchBar" type="text" placeholder="Search..">
+            </div>
+        </div>
+        <div class="container">
+            <p class="intro">At Munch With Tea, we believe that the pleasure of tea extends beyond the cup. That's why we've gathered an array
+            of delectable Tea Snacks recipes that are specially designed to enhance your tea-drinking experience. Whether you're a
+            seasoned tea enthusiast or just exploring the world of tea, our Tea Snacks collection offers a variety of treats that
+            perfectly pair with your favorite blends.</p>
+        </div>
+        <h1>Recipe Calculator for Lemon Cream Biscuits</h1>
+        <p class="description">There's a magical synergy that happens when the zesty brightness of lemon cream biscuits meets the soothing comfort of a
+        warm cup of tea. These two culinary delights complement each other in a way that awakens your senses and elevates your
+        taste experience.</p>
+        <p class="description">Whether you're enjoying a quiet afternoon by yourself or sharing laughter with friends, the pairing of lemon cream
+        biscuits and tea creates an experience that's truly special. So, as you settle into your favorite spot with a cup of tea
+        in hand, let the bright and cheerful flavors of lemon cream biscuits accompany you on a journey of taste and
+        relaxation."</p>
+        <img src="img/lemon_cream_bsicuits.jpg">
+        <label for="serving">Lemon Cream biscuits - 18 serving</label>
+        <input type="number" id="serving" min="1">
+        <button id="calculateBtn">Calculate</button>
+        
+        <h2 class="recipe">Calculated Recipe:</h2>
+        <div id="recipeOutput"></div>
+        <script src = 'js/scripts.js'></script> 
+    </body>
+</html>

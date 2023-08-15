@@ -2,6 +2,10 @@
 ## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
 ## August 2023
+### 15.08:
+- coffee_showcase update-> "tea_recipe"
+- coffee_showcase-> add img "tea_recipe"
+- new lading page-> tea_recipe
 ### 13.08:
 - coffee_showcase update-> "tea_video"
 - coffee_showcase-> add img "tea_video"

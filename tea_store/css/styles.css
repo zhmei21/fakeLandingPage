@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+    margin: 40px;
+}
+
+header .logo {
+    margin: 0px 20px;
+}
+
+header ul {
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+header ul li {
+    padding: 0px 25px;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+header ul li a:link {
+    color: #000000;
+}
+
+header ul li a:visited {
+    color: #000000;
+}
+
+header ul li a:hover {
+    background-color: rgb(193, 248, 193);
+    color: #5f5f5f;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.banner {
+    background-image: linear-gradient(to top right, rgb(157, 187, 223), rgb(180, 225, 180));
+    display: flex;
+    padding: 200px;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: #fff;
+    text-shadow: 1px 1px rgb(78, 78, 78);
+}
+
+.shopping-cart{
+    display: flex;
+    margin: 50px 0px;
+}
+
+.shopping-cart-style{
+    padding: 0px ;
+    margin: 100px 50px;
+}
+
+.shopping-cart p{
+    padding: 0px 20px;
+    font-size: 1.4rem;
+}
+
+.cart-items{
+    margin: 0px 20px;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+.cart-items li{
+    padding: 0px 10px;
+    list-style-type: none;
+}
+button {
+    background-color: #fff;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0px 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.all-products{
+    display: grid;
+    margin: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.product-list{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 25px 0px;
+    font-size: 1.2rem;
+    margin: 0px auto;
+}
+
+.product p{
+    padding: 5px 0px;
+}
+
+img{
+    max-width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}

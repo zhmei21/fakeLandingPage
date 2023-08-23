@@ -6,6 +6,7 @@
 - coffee_showcase update-> "ToDo_List"
 - coffee_showcase-> add img "ToDo_List"
 - new landing page-> ToDo_list
+- fixed some alerts in script-> change function createTaskItem(taskText)
 ### 18.08:
 - coffee_showcase update-> "tea_store"
 - coffee_showcase-> add img "tea_store"

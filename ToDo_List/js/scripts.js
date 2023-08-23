@@ -33,10 +33,16 @@ function addTask() {
 // Function to create a new task item element
 function createTaskItem(taskText) {
     const taskItem = document.createElement("li");
-    taskItem.innerHTML = `
-        <p>${taskText}</p>
-        <button class="deleteButton">Remove Task</button>
-    `;
+    
+    const taskParagraph = document.createElement("p");
+    taskParagraph.textContent = taskText;
+    taskItem.appendChild(taskParagraph);
+    
+    const deleteButton = document.createElement("button");
+    deleteButton.className = "deleteButton";
+    deleteButton.textContent = "Remove Task";
+    taskItem.appendChild(deleteButton);
+    
     return taskItem;
 }
 

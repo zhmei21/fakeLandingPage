@@ -6,6 +6,7 @@
 - coffee_showcase update-> "cinema_for_snack"
 - coffee_showcase-> add img "cinema_for_snack"
 - new landing page-> cinema_for_snack
+- update: cinema_for_snack css -> sortet
 ### 03.09:
 - coffee_showcase update-> "box_memory"
 - coffee_showcase-> add img "box_memory"

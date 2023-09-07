@@ -1,3 +1,4 @@
+/* Reset and general styles */
 body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -5,41 +6,41 @@ body {
     background-color: rgba(101, 73, 110, 0.475);
 }
 
+/* Header styles */
 header {
     background-color: #6F4B7D;
-    color: white;   
+    color: white;
     text-align: center;
     padding: 1rem;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: center;
-    
     list-style-type: none;
 }
 
-li{
+li {
     padding: 2rem;
     font-size: 1.5rem;
 }
 
-
-a{  
+a {
     color: #fff;
     text-decoration: none;
 }
 
-.active{
+.active {
     text-decoration: underline;
-    color:#E098FD;
+    color: #E098FD;
 }
 
-a:hover{
-    color:rgba(170, 122, 215, 0.857);
-    text-decoration: underline;   
+a:hover {
+    color: rgba(170, 122, 215, 0.857);
+    text-decoration: underline;
 }
 
+/* Hidden menu styles */
 .hidden-menu {
     display: none;
     position: absolute;
@@ -51,7 +52,7 @@ a:hover{
     border-radius: 5px;
 }
 
-.block{
+.block {
     display: block;
 }
 
@@ -66,14 +67,12 @@ a:hover{
     margin: 0.8rem;
 }
 
-.hidden-menu li:hover{
-    a{
-        color:#E098FD;
-        text-decoration: underline;
-    }
+.hidden-menu li:hover a {
+    color: #E098FD;
+    text-decoration: underline;
 }
 
-.details{
+.details {
     font-size: 0.8rem;
     background-color: #6F4B7D;
     padding: 1rem;
@@ -84,7 +83,8 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.movie-header{
+/* Movie header styles */
+.movie-header {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -94,14 +94,16 @@ a:hover{
     font-size: 3rem;
 }
 
-.movie-gallery{
+/* Movie gallery styles */
+.movie-gallery {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 5rem;
     margin: 2rem 3rem;
 }
 
-.movie-poster{
+/* Movie poster styles */
+.movie-poster {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 2rem;
@@ -117,41 +119,42 @@ a:hover{
     height: 22rem;
 }
 
-.column-left{
-    display:flex;
+.column-left {
+    display: flex;
 }
 
-.column-middle h3{
+.column-middle h3 {
     font-size: 2rem;
     color: #fff;
     text-shadow: 1px 1px 1px black;
 }
 
-.column-middle p{
+.column-middle p {
     font-size: 1.3rem;
 }
 
-.column-right img{
+.column-right img {
     padding: 0.5rem;
     max-width: 50px;
 }
 
-.room{
+.room {
     padding: 0.8rem;
     background-color: #6F4B7D;
-    color:#fff;
+    color: #fff;
     border-radius: 5px;
 }
 
+/* Showtimes styles */
 .showtimes {
     margin: 5rem;
 }
 
-.showtimes ul li{
+.showtimes ul li {
     font-size: 1.3rem;
 }
 
-
+/* Footer styles */
 footer {
     background-color: #6F4B7D;
     color: white;

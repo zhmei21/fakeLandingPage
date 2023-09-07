@@ -2,6 +2,10 @@
 ## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
 ## September 2023
+### 07.09:
+- coffee_showcase update-> "cinema_for_snack"
+- coffee_showcase-> add img "cinema_for_snack"
+- new landing page-> cinema_for_snack
 ### 03.09:
 - coffee_showcase update-> "box_memory"
 - coffee_showcase-> add img "box_memory"

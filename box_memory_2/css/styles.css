@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+h1{
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+    margin: 5rem;
+}
+
+/* Create a grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 55rem;
+    margin: 5rem auto;
+}
+
+/* Style the boxes */
+.box {
+    margin: 2rem;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    height: 10rem;
+    width: 10rem;
+}
+
+.box-content{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+/* Add a hover effect to the boxes */
+.box:hover {
+    transform: scale(1.1);
+}
+
+.hidden-content {
+    display: none; 
+}
+
+.hidden-content.expanded {
+    display: block;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: 10rem;
+    border-radius: 0.2rem;
+}

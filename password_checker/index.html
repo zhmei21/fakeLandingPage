@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Password checker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 class="title">Password Checker</h1>
+    
+    <p class="description">
+        A small password check.
+        <br />
+        Username must be 5 or more letters.
+        <br />
+        Password must have a uppercase, number and special character.
+    </p>
+
+    <form method="POST" action="#" id="loginForm">
+        <label for="user">User: </label>
+        <input type="text" id="user"/>
+        <label for="password">Password: </label>
+        <input type="password" id="password">
+        <input type="submit" value="Log In">
+    </form>
+    <div id="feedback"></div>
+    <div id="passwordFeedback"></div>
+    <div id="output"></div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

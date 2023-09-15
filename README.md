@@ -2,6 +2,10 @@
 ## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
 ## September 2023
+### 15.09:
+- coffee_showcase update-> "password_checker"
+- coffee_showcase-> add img "password_checker"
+- new (page)-> password_checker
 ### 10.09:
 - coffee_showcase update-> (new) "box_memory_2"
 - (new) landing-> box_memory_2

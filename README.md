@@ -2,6 +2,8 @@
 ## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
 ## September 2023
+### 16.09:
+- update: password_checker -> add "function generateUniqueKey"
 ### 15.09:
 - coffee_showcase update-> "password_checker"
 - coffee_showcase-> add img "password_checker"

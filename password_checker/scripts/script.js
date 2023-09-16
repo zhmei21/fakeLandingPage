@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Generate a unique key (You can replace this with your unique key generation logic)
-    var uniqueKey = generateUniqueKey();
+    var uniqueKey = generateUniqueKey(username);
 
     // Create an object with the user data
     var userData = {
@@ -50,8 +50,19 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Function to generate a unique key (You can replace this with your own logic)
-  function generateUniqueKey() {
-    // Generate a unique key. Still thinking
+  function generateUniqueKey(username) {
+    var currentDate = new Date();
+
+    // Extract date components (day)
+    var day = currentDate.getDate().toString().padStart(3, '0');
+
+    // Generate a random number between 1 and 3000
+    var randomNumber = Math.floor(Math.random() * 3000) + 1;
+
+    // Combine all components to create the unique key
+    var key = randomNumber * username.length + day + "-" + day * randomNumber * randomNumber + "-" + day * day * username.length;
+
+    return key;
   }
 
   // Function to display user data as a formatted JSON string

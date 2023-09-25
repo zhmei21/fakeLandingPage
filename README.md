@@ -6,6 +6,7 @@
 - coffee_showcase update-> "doctor_page"
 - coffee_showcase-> add img "doctor_page"
 - new landing page-> doctor_page
+- fixed-> color in navbar
 ### 16.09:
 - update: password_checker -> add "function generateUniqueKey"
 ### 15.09:

@@ -39,7 +39,7 @@
     color: rgb(255, 255, 255);
 }
 
-.navbar-item {
+.navbar-item, a {
     padding: 0 2rem;
     color: rgb(255, 255, 255);
 }

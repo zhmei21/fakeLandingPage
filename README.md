@@ -2,6 +2,10 @@
 ## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
 ## September 2023
+### 25.09:
+- coffee_showcase update-> "doctor_page"
+- coffee_showcase-> add img "doctor_page"
+- new landing page-> doctor_page
 ### 16.09:
 - update: password_checker -> add "function generateUniqueKey"
 ### 15.09:

@@ -1,0 +1,86 @@
+/* Reset and base styles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Container styles */
+.container {
+    margin: 2rem 10rem;
+}
+
+/* Body background gradient */
+body {
+    background-image: linear-gradient(to right, #ffffff, #f5f5f5, #ebebeb, #e2e2e2, #d8d8d8);
+}
+
+/* Navigation styles */
+ul {
+    display: flex;
+}
+
+header ul li img {
+    display: flex;
+    height: 2rem;
+}
+
+li, a {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+}
+
+/* Mini-section styles */
+.mini-section li {
+    border-top: 0.15rem solid black;
+    border-bottom: 0.15rem solid black;
+    border-right: 0.1rem solid black;
+}
+
+li a::before {
+    color: rgb(0, 0, 0);
+}
+
+li a:link {
+    color: rgb(0, 0, 0);
+}
+
+li a:visited {
+    color: rgb(0, 0, 0);
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    display: flex;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+/* Breaking news section styles */
+.breaking-news {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5rem;
+    grid-auto-columns: max-content;
+    margin-top: 2rem;
+}
+
+/* Article hover effect */
+.article:hover {
+    cursor: pointer;
+}
+
+/* Heading and paragraph styles */
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem; /* Adjusted font size for h2 elements */
+}
+
+p {
+    font-size: 1.2rem;
+}

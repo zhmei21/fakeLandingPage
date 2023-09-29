@@ -1,0 +1,119 @@
+/* Reset and base styles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Container styles */
+.container {
+    margin: 2rem 10rem;
+}
+
+/* Icon styles*/
+.icon:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.5);
+}
+
+/* Body background gradient */
+body {
+    background-image: linear-gradient(to right, #ffffff, #f5f5f5, #ebebeb, #e2e2e2, #d8d8d8);
+}
+
+/* Navigation styles */
+ul {
+    display: flex;
+}
+
+li a:link{
+	color: rgb(0, 0, 0);
+}
+
+header ul li img {
+    display: flex;
+    height: 2rem;
+}
+
+li, a {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+}
+
+/* Styles for the navigation */
+.navigation {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 10px;
+    position: relative;
+}
+
+/* Style for the hover effect */
+.navigation li::before {
+    content: "";
+    position: absolute;
+    top: 1.3rem;
+    left: 0;
+    width: 3rem;
+    height: 0.3rem;
+    background-color: #bdbdbd;
+    z-index: -1;
+    transition: width 0.65s ease;
+    border-radius: 5px;
+}
+
+/* Hover effect on li */
+.navigation li:hover::before {
+    width: 100%;
+}
+
+/*li a styles */
+li a:visited {
+    color:rgb(0, 0, 0);
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    display: flex;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+/* Breaking news section styles */
+.breaking-news {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5rem;
+    grid-auto-columns: max-content;
+    margin-top: 2rem;
+}
+
+/*Author & date styles*/
+.author, .date{
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+/* Article hover effect */
+.article:hover {
+    cursor: pointer;
+}
+
+/* Heading and paragraph styles */
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem; /* Adjusted font size for h2 elements */
+}
+
+p {
+    font-size: 1.2rem;
+}

@@ -2,6 +2,10 @@
 ## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
 ## September 2023
+### 29.09:
+- coffee_showcase update-> (new) "daily_news_2"
+- coffee_showcase-> add img "daily_news_2"
+- change nav in daily_news_2 and add some more information
 ### 28.09:
 - coffee_showcase update-> "daily_news"
 - coffee_showcase-> add img "daily_news"

@@ -1,6 +1,11 @@
 # fakeLandingPages
 ## A collection of fake landing pages, free to use and modify.
 ## Use coffee_showcase index to view all websites
+## October 2023
+### 05.10:
+- coffee_showcase update-> "joo_bank"
+- coffee_showcase-> add img "joo_bank"
+- new landing page-> joo bank
 ## September 2023
 ### 29.09:
 - coffee_showcase update-> (new) "daily_news_2"
